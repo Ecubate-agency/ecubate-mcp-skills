@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ecubate": {
+      "type": "http",
+      "url": "https://mcp.ecubate.com/mcp"
+    }
+  }
+}

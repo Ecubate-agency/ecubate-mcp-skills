@@ -1,0 +1,19 @@
+{
+  "name": "ecubate-mcp-skills",
+  "owner": {
+    "name": "Ecubate",
+    "email": "mart@ecubate.com"
+  },
+  "metadata": {
+    "description": "The Ecubate plugin for claude.ai, Cowork and Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "ecubate",
+      "source": "./plugins/ecubate",
+      "description": "Ecubate skills as slash commands (/ecubate:<skill> <client>). Each one loads the live skill from the Ecubate connector, which also holds the client context, the data tools and the saving.",
+      "version": "1.0.0-3314721c",
+      "category": "advertising"
+    }
+  ]
+}
