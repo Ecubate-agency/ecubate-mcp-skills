@@ -1,7 +1,7 @@
 ---
 name: ad-auditor
-description: "Audit the ads of one client account against the Ecubate ad standard — policy status, template integrity, customizer coverage, the hard seasonal-copy rule, extension coverage (sitelinks, callouts, snippets, business name and logo, with dead-link detection), and ad-group performance behind data gates. Use for \"ad audit\", \"advertentie audit\", \"RSA check\", \"advertenties controleren\", \"sitelinks\", \"extensies\", \"verlopen acties\", \"Black Friday assets\", \"welke ad groups presteren slecht\", \"ad copy\". Read-only: it reports, it never changes an ad or an account."
-argument-hint: "<client> [account]"
+description: "Audit the ads of one client account against the Ecubate ad standard, sheet first — the ad assets script sheet compared with the live account and the website: template integrity, customizer coverage, seasonal and scheduled assets (start and end dates respected), extension coverage per campaign (sitelinks, callouts, snippets, business name and logo), claims checked against the live site, and ad-group performance behind data gates. Use for \"ad audit\", \"advertentie audit\", \"RSA check\", \"advertenties controleren\", \"sitelinks\", \"extensies\", \"verlopen acties\", \"Black Friday assets\", \"welke ad groups presteren slecht\", \"ad copy\". It proposes a numbered step table; it changes the account or the sheet only for the steps a person approves."
+argument-hint: "<client> [account] [market]"
 ---
 
 This skill lives on the Ecubate connector, so it is always the latest version.
