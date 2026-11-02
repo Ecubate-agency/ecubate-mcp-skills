@@ -1,6 +1,6 @@
 ---
 name: push-to-gads
-description: "Apply an approved change set to a live Google Ads account — negatives, keywords, budgets, bid strategies, whatever an audit proposed. Reads a proposal file from the client folder, validates it against Google, asks, then applies. Use when someone asks to apply, push, execute or doorvoeren changes."
+description: "Apply an approved change set to a live Google Ads account — negatives, keywords, budgets, bid strategies, conversion actions and goals, whatever an audit proposed. Reads a proposal file from the client folder, validates it against Google, asks, then applies. Use when someone asks to apply, push, execute or doorvoeren changes."
 argument-hint: "<client> [proposal-file]"
 ---
 
