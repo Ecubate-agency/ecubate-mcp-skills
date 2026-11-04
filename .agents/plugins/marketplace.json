@@ -1,0 +1,20 @@
+{
+  "name": "ecubate-mcp-skills",
+  "interface": {
+    "displayName": "Ecubate"
+  },
+  "plugins": [
+    {
+      "name": "ecubate",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ecubate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
