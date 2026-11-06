@@ -12,7 +12,7 @@
       "name": "ecubate",
       "source": "./plugins/ecubate",
       "description": "Ecubate skills as slash commands (/ecubate:<skill> <client>). Each one loads the live skill from the Ecubate connector, which also holds the client context, the data tools and the saving.",
-      "version": "1.1.0-sync.f9d861e5",
+      "version": "1.1.0-sync.4cc57b9f",
       "category": "advertising"
     }
   ]
